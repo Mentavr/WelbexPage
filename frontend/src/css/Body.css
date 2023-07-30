@@ -1,0 +1,26 @@
+.item {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    @media (min-width: 320px) and (max-width: 1100px) {
+        font-size: 12px;    
+        font-size: 12px;
+      }
+}
+
+ul {
+    padding: 0;
+}
+

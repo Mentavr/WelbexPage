@@ -1,0 +1,197 @@
+.container_main {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+box-sizing: border-box;
+  @media (min-width: 320px) and (max-width: 1100px) {
+  min-height: 445px;
+  background: 
+  radial-gradient(304.35% 148.20% at 3.20% 3.49%, rgba(255, 246, 233, 0.10) 0%, rgba(26, 29, 35, 0.10) 26.62%, rgba(26, 29, 35, 0.10) 52.10%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0.00) 100%), 
+  url("../images/lite_moobal_red.svg");
+  backdrop-filter: blur(7.5px);   
+  padding: 0 14px;
+  padding-top: 40px;
+  min-height: 445px;
+  padding-bottom: 40px;
+  }
+};
+.content_items{
+  @media (min-width: 320px) and (max-width: 1100px) {
+  }
+}
+
+.wraper_main_content {
+  display: flex;
+  justify-content: space-between;
+  position: relative; 
+  @media (min-width: 320px) and (max-width: 1100px){
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}
+
+.title {
+font-size: 48px;
+font-weight: 400;
+max-width: 362px;
+margin: 0;
+  @media (min-width: 320px) and (max-width: 1100px){
+    color: var(--light-text, #E4E5EA);
+    font-size: 36px;
+  }
+}
+
+.title_bold {
+  font-weight: 900;
+  background: linear-gradient(to right, #FCB045, #FF3F78);
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 30px;
+  @media (min-width: 320px) and (max-width: 1100px) {
+    margin-bottom: 15px;
+  }
+}
+.slogan {
+  font-family: Montserrat;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 400;
+  max-width: 275px;
+  @media (min-width: 320px) and (max-width: 1100px){
+
+  }
+  
+}
+
+.content_item_wraper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin-left: 30px;
+  @media (min-width: 320px) and (max-width: 1100px){
+   display: none;
+  }
+}
+
+.subtitle_wraper{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+  max-width: 135px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: end;
+}
+.subtitle_text{
+  padding: 0;
+  margin: 0;
+}
+.content_item_tagline{
+  margin-left: 40px;
+  @media (min-width: 320px) and (max-width: 1100px){
+    text-align: left;
+    margin: 0;
+    padding-top: 20px;
+  }
+}
+.tagline{
+  text-align: right;
+  font-size: 18px;
+  margin-bottom: 40px;
+  max-width: 290px;
+  @media (min-width: 320px) and (max-width: 1100px){
+    text-align: left;
+    margin-bottom: 25px;
+  }
+}
+.accent_text {
+      background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 18px;
+      line-height: normal;
+      letter-spacing: 0.9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+  @media (min-width: 320px) and (max-width: 1100px){
+    text-transform: lowercase;
+    letter-spacing: 0;
+
+  }
+}
+.subtitle{
+  text-align: right;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.subtitle_text {
+  color: #E4E5EA;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.btn_wraper{
+  min-width: 100%;
+  @media (min-width: 320px) and (max-width: 1100px){
+    display: none;
+  }
+}
+
+.btn {
+  flex-shrink: 0;
+  background: #4077F3;
+  margin-top: 30px;
+  float: right;
+  min-width: 262px;
+  min-height: 62px;
+}
+
+.content_item_wraper_mobile {
+  display: none;
+  @media (min-width: 320px) and (max-width: 1100px){
+    max-width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+}
+.subtitle_wraper_mobile {
+  position: relative;
+  min-width: 128px;
+  min-height: 15px;
+  display: flex;
+  align-items: center;
+}
+.subtitle_text_mobile{
+  color: var(--light-text, #E4E5EA);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.decor_line{
+  position: absolute;
+  left: -13px;
+  top: 6px;
+  width: 10px;
+  height: 1px;
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+}
+
+
