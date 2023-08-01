@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Mentavr/WelbexPage/issues"
   },
-  "homepage": "https://github.com/Mentavr/WelbexPage#readme"
+  "homepage": "https://github.com/Mentavr/WelbexPage#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
